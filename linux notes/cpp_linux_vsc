@@ -1,0 +1,3 @@
+install c++ extension pack, code runner extension then preferences -> settings -> extension -> run code configuration -> enable run in a integrated terminal
+
+then -> sudo apt install g++  or  sudo apt reinstall g++

@@ -1,0 +1,6 @@
+1) apt-cache search codeblocks-contrib
+
+2) sudo apt-get install codeblocks-contrib
+
+3) sudo apt-get install build-essential
+

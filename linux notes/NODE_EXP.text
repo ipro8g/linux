@@ -1,0 +1,13 @@
+1) npm init -y
+2) npm i express
+
+start server -> node index.js 'entrypoint'
+
+3) npm i -D nodemon
+4) on package.json -> "scripts": {
+    "start": "node index",
+    "dev":"nodemon index"
+  },
+op)npm install body-parser
+5)npm run dev
+6) install express handlebars github repository 

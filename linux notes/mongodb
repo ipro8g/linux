@@ -1,0 +1,44 @@
+1) wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+
+2) sudo apt-get install gnupg
+
+3) wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+
+4) echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+
+5) sudo apt-get install -y mongodb-org
+
+6) sudo systemctl start mongod
+
+
+
+
+
+
+
+1) create folder /home/devicename/data 
+
+here will be all information saved
+
+
+
+
+2) go to /bin/ and start mongod process -> mongod --dbpath /home/devicename/data
+
+if error "address 27017 in use occurs", set another port ->  mongod --dbpath /home/devicename/data --port 12345
+
+
+
+
+
+3) to start mongodb shell go to '/bin/' and type -> ./mongosh mongodb://127.0.0.1:12345
+
+
+
+
+4) create testdb databse from the shell
+
+
+
+
+5) the shell must be running to accept nodejs request from the local server

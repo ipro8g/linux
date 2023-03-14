@@ -1,0 +1,22 @@
+for linux mint
+
+
+1) curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
+2) sudo apt-get install -y nodejs
+
+3) to verify install->    node --version
+    to verify install->    npm --version
+
+
+
+node application
+
+4) npm init
+
+5) npm install uuid
+
+6) npm install -D nodemon
+
+//for a webhost installation -> npm install 
+//will create all modules automatically

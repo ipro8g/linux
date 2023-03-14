@@ -1,0 +1,11 @@
+sudo /opt/lampp/lampp start
+
+sudo /opt/lampp/lampp stop
+
+modify htdocs permissions -> sudo chmod -R 777 /opt/lampp/htdocs
+
+start mysql console -> /opt/lampp/bin/mysql -u root
+
+phpmyadmin -> http://localhost/phpmyadmin/
+
+composer google php oauth 20 library -> composer require google/apiclient:"^2.0"
