@@ -13,6 +13,29 @@
 
 
 
+
+REMOVE
+
+1) sudo service mongod stop
+
+2) sudo apt-get purge mongodb-org*
+
+
+3) sudo rm -r /var/log/mongodb
+
+4) sudo rm -r /var/lib/mongodb
+
+5) sudo rm /etc/systemd/system/mongodb.service
+
+
+For Ubuntu 20.04 LTS use this path 
+
+6) sudo rm /lib/systemd/system/mongod.service
+
+
+
+
+
 INSTALL 4.4
 
 1) wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
