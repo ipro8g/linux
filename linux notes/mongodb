@@ -38,13 +38,11 @@ For Ubuntu 20.04 LTS use this path
 
 INSTALL 4.4
 
-1) wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+1) download 4.4 packages files
 
-2) echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+2) go to home/devicename/mongodb and write:   mv mongodb-linux-x86_64-ubuntu2004-4.4.19 mongodb
 
-3) sudo apt update
-
-4) sudo apt install -y mongodb-org
+3) execute .deb packages
 
 
 
